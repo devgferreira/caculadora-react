@@ -1,10 +1,11 @@
 
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
+import Calculadora from './main/Calculadora';
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-
-);
-
+ReactDOM.render(
+  <div id="Calculadora">
+    <h1>Calculadora</h1>
+  <Calculadora/>
+  </div>,
+  document.getElementById("root"))
